@@ -1,1 +1,64 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 1366px;
+    height: 1669;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+h1 {
+    padding-top: 200px;
+    color: #00a1e0;
+}
+
+h2 {
+    color: #444444;
+}
+
+h3 {
+    color: #00648b;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    color: #00648b;
+}
+
+td.left{
+    font-family: "Courier New, Courier", monospace;
+}
+
+header {
+    height: 450px;
+    font-family: "Helvetica, Arial, sans-serif";
+    background-color: #000000;
+}
+
+header p {
+    color: white;   
+}
+
+/*.planets {
+    padding-bottom: 700 px;
+}*/
+
+img {
+    width: 200px
+}
+
+main {
+    background-color: #fff6e6;
+}
+
+main p {
+    color: #444444
+}
+
+footer {
+    text-align: center; 
+    background-color: #000000;
+}

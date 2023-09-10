@@ -108,14 +108,19 @@ table {
     color: #00648b;
     border-collapse: collapse;
     border: none;
+    height: 162px;
+}
+
+td {
+    padding: 16px;
 }
 
 td.left {
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
     border-right: 2px solid #00648b;
+    text-align: right;
 }
-
 
 img {
     width: 550px;

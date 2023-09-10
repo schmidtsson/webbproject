@@ -26,6 +26,10 @@ header p {
     color: #fff6e6;
 }
 
+header a {
+    font-weight: bold;
+}
+
 #two {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,7 @@ header p {
     justify-content: right;
 }
 
-.four {
+.headerlink {
     padding-left: 3rem;
 }
 

@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body {
-    width: 1366px;
+    width:  1366px;
     font-family: Helvetica, Arial, sans-serif;
-    /*background-image: url("/home/viktor/webbprojekt-main/img/mall_pluto.png");
-    opacity: 50%;*/
+    background-image: url("mall_pluto.png");
+    background-repeat: no-repeat;
+    opacity: 80%;
 }
 
 img {
@@ -28,7 +30,8 @@ header p {
 }
 
 header a {
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 #two {
@@ -46,31 +49,43 @@ header a {
 }
 
 main {
-    background-color: #fff6e6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 1030px;
+    background-color: #fff6e6;
+    display: grid;
+    /*justify-content: space-between;*/
+    row-gap: 25px;
+    padding-bottom: 230px;
+    padding-left: 135px;
 }
 
 main p {
+    font-size: 1.1rem;
     color: #444444
 }
 
-#twenty {
-    display: flex;
-    flex-direction: column;
-}
-
 #four {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    align-content: end;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 
 #five {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    display: grid;
+    align-content: start;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#six {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 footer {
@@ -93,10 +108,12 @@ h1 p {
 }
 
 h2 {
+    font-size: 3rem;
     color: #444444;
 }
 
 h3 {
+    font-size: 1.5rem;
     color: #00648b;
 }
 
@@ -125,4 +142,4 @@ td.left {
 
 img {
     width: 550px;
-}
+}   

@@ -1,2 +1,3 @@
-![Skärmbild 2023-09-12 122111](https://github.com/schmidtsson/webbprojekt/assets/120182694/b99f6045-2e5f-4074-9170-e2b9661cd20e)
-![Skärmbild 2023-09-12 122330](https://github.com/schmidtsson/webbprojekt/assets/120182694/ef06e1f4-1282-4b14-9ca5-c7fa85d576c8)
+
+![Skärmbild 2023-09-12 123307](https://github.com/schmidtsson/webbprojekt/assets/120182694/dfe82e7f-b64d-4398-9031-9c0d4378a7d1)
+![Skärmbild 2023-09-12 123257](https://github.com/schmidtsson/webbprojekt/assets/120182694/0437afba-fe19-424b-bf28-2414d875fe2a)

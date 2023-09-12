@@ -20,7 +20,6 @@ header {
     background-color: #000000;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-left: 136px;
     padding-bottom: 35px;
     height: 498px;
@@ -41,20 +40,27 @@ header a {
     display: flex;
     flex-direction: column;
     gap: 0px;
+    justify-content: center;
 }
 
 #two {
+    padding-top: 30px;
+    padding-right: 135px;
     display: flex;
     flex-direction: column;
+    gap: 32px;
 }
 
 #three {
     display: flex;
     justify-content: right;
+    gap: 31px;
 }
 
 .headerlink {
-    padding-left: 3rem;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /*padding-left: 3rem;*/
 }
 
 main {

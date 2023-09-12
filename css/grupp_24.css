@@ -54,7 +54,7 @@ main {
     display: grid;
     grid-template-rows: 243px 100px;
     row-gap: 30px;
-    column-gap: 25px;
+    column-gap: 58px;
     padding-left: 135px;
     padding-right: 10px;
 }
@@ -150,7 +150,8 @@ td.left {
 }
 
 td.right {
-    
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
 
 img {
